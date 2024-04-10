@@ -38,7 +38,14 @@ public class Main {
                     Instructor instructor = new Instructor();
 
                     // Obtaining instructor info
-                    /* YOUR CODE HERE */
+                    System.out.println("Nombre: ");
+                    instructor.setName(sc.nextLine());
+                    System.out.println("Número de estudiante: ");
+                    instructor.setStudentNumber(sc.nextLine());
+                    System.out.println("Correo electrónico: ");
+                    instructor.setEmail(sc.nextLine());
+                    System.out.println("Materia que imparte: ");
+                    instructor.setSubject(sc.nextLine());
 
                     // Adding instructor to the list
                     archive.addNewInstructor(instructor);
@@ -49,7 +56,14 @@ public class Main {
                     Professor professor = new Professor();
 
                     // Obtaining professor info
-                    /* YOUR CODE HERE */
+                    System.out.println("Nombre: ");
+                    professor.setName(sc.nextLine());
+                    System.out.println("Correo electrónico: ");
+                    professor.setEmail(sc.nextLine());
+                    System.out.println("Facultad: ");
+                    professor.setFaculty(sc.nextLine());
+                    System.out.println("Materia: ");
+                    professor.setSubject(sc.nextLine());
 
                     // Adding professor to the list
                     archive.addNewProfessor(professor);
