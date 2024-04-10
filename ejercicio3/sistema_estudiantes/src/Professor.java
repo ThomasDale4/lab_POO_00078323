@@ -4,7 +4,7 @@ public class Professor extends Person{
     private String subject;
     public Professor(){
         super();
-        this.salary = 0.0
+        this.salary = 0.0;
         this.faculty = "";
         this.subject = "";
     }
